@@ -14,8 +14,8 @@ COPY requirements.txt /requirements.txt
 # Installing Requirements
 RUN cd /
 RUN pip3 install -U -r requirements.txt
-RUN mkdir /MessageSearchBot
-WORKDIR /MessageSearchBot
+RUN mkdir /link-search-bot---mdisk-search-bot
+WORKDIR /link-search-bot---mdisk-search-bot
 COPY start.sh /start.sh
 
 # Running MessageSearchBot
