@@ -6,7 +6,7 @@ class Config(object):
     API_HASH = os.environ.get("API_HASH", "0cbcabbf1b9c56a4dfc4b8950d584a2a")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "5827438477:AAH__CXXOeqv4Xkknvg6kiL6yYa0WrrbCks")
     BOT_SESSION_NAME = os.environ.get("BOT_SESSION_NAME", "LinkSearchBot")
-    USER_SESSION_STRING = os.environ.get("USER_SESSION_STRING", "1BVtsOHQBu3vYsA7TkvELHqyaq1RL5WAXZtpNikD0Mg0zh1iTwnCmR-a_iY3_XeGsf6AgpiCwPsPZCVPqHHO0YUbA4-ybq9j70ku_Cevm8XWcRPMlCRzMbVsDSLhgq1s8vUyOtntC_RFqwW1VDJwMBO2Uf0boIP8PfH9Bz9geZjGh7fXySLavXy2mmBzSuRDbLeYJT99zGY9UvizCr-rUBaLqS4Urk7qscjXcPGqb6qtONvKB-jmAncXm3PNAzcJcB_FO7QDQ1lFr19rKekBOUZN68p-kujHmzWOzbMjYGL1djpQjym_VeU8ewZM_YBkApM0TxqsItee-Nsz7CA1ZnKSFI4BBFT0=")
+    USER_SESSION_STRING = os.environ.get("USER_SESSION_STRING", "BQDa9Z8ARkHn4q44be6IimS4enTi5ubKZyzMctPyLLvcXpXQtA2hrpWqbfEjHPqBVOfipfJCXpQpDQrmqG1lNiHUEYw5dq991X2APs3t1xtZrAWOyFgy6mZ1SWqHtj8C-GtEuW-A__Li5PoOke5sum2slttXcj2E9zMUcNlZxOXKpTcr4zNWm0WQgS41uTUtvky1mUefUofBQxXkwEPbK5XoHUDxhtyE4Vxc9uAD-_9dmU9C0HFkaLRZJ2OFe0J-1HHMkvWXF2nD55hEY4SW1NWrBmqqqKzygWg5zom7mAf3PSSwz7vLUIN2aXoj_Vdmxwq2ddeRIiN6XLUApUYeg-1egf0PSgAAAAFXqjyAAA")
     CHANNEL_ID = int(os.environ.get("CHANNEL_ID", -100))
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "TERE_BOX_MOVIES_SEARCH_BOT")
     BOT_OWNER = int(os.environ.get("BOT_OWNER", "5124332598"))
