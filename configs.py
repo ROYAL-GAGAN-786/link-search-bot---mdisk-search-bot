@@ -7,11 +7,11 @@ class Config(object):
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "6223100452:AAETcNqFYN11AXMI1Is8YdiNe_yJusACn6s")
     BOT_SESSION_NAME = os.environ.get("BOT_SESSION_NAME", "LinkSearchBot")
     USER_SESSION_STRING = os.environ.get("USER_SESSION_STRING", "BQDa9Z8ARkHn4q44be6IimS4enTi5ubKZyzMctPyLLvcXpXQtA2hrpWqbfEjHPqBVOfipfJCXpQpDQrmqG1lNiHUEYw5dq991X2APs3t1xtZrAWOyFgy6mZ1SWqHtj8C-GtEuW-A__Li5PoOke5sum2slttXcj2E9zMUcNlZxOXKpTcr4zNWm0WQgS41uTUtvky1mUefUofBQxXkwEPbK5XoHUDxhtyE4Vxc9uAD-_9dmU9C0HFkaLRZJ2OFe0J-1HHMkvWXF2nD55hEY4SW1NWrBmqqqKzygWg5zom7mAf3PSSwz7vLUIN2aXoj_Vdmxwq2ddeRIiN6XLUApUYeg-1egf0PSgAAAAFXqjyAAA")
-    CHANNEL_ID = int(os.environ.get("CHANNEL_ID", -100))
+    CHANNEL_ID = int(os.environ.get("CHANNEL_ID", -1001885390961))
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "TERE_BOX_MOVIES_SEARCH_BOT")
     BOT_OWNER = int(os.environ.get("BOT_OWNER", "5124332598"))
     DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Mdiskdb-mongo:777@cluster0.sn5inqp.mongodb.net/?retryWrites=true&w=majority")
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
+    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", -1001279636969)
     ABOUT_BOT_TEXT = """<b>This is Link Search Bot.
     
     
