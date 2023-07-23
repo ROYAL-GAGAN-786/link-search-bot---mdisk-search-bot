@@ -10,7 +10,7 @@ class Config(object):
     CHANNEL_ID = int(os.environ.get("CHANNEL_ID", -1001885390961))
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "TERE_BOX_MOVIES_SEARCH_BOT")
     BOT_OWNER = int(os.environ.get("BOT_OWNER", "5124332598"))
-    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Mdiskdb-mongo:777@cluster0.sn5inqp.mongodb.net/?retryWrites=true&w=majority")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://786:786@cluster0.i6dbky4.mongodb.net/?retryWrites=true&w=majority")
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", -1001279636969)
     ABOUT_BOT_TEXT = """<b>This is Link Search Bot.
     
